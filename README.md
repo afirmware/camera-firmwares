@@ -16,14 +16,3 @@
 | `small-camera-no-battery` | `cam-withoutir-small-512k-spi-chip4.bin` | 512 KiB | 同类镜像变体 4 |
 | `small-camera-with-battery` | `cam-512k-spi-chip.bin` | 512 KiB | 文件名标注为带电池小摄像头 / 512 KiB SPI 芯片 |
 | `wireless-video-camera` | `tuchuan-cam.bin` | 2 MiB | 无线视频摄像头相关镜像 |
-
-## 使用建议
-
-- 刷写前记录设备标签、主控型号、闪存芯片型号和原始固件版本。
-- 将设备原始闪存完整备份，并保留备份文件，不要覆盖唯一副本。
-- 对照镜像大小及硬件信息确认兼容性；不要仅依据目录名选择镜像。
-- 完成镜像来源、版本和校验值整理后，可在此 README 中补充记录。
-
-## 维护说明
-
-当前清单按目录中的文件名和文件大小整理。固件版本、来源、校验和及对应设备硬件修订版尚未记录。
